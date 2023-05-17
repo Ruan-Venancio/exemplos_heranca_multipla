@@ -1,0 +1,18 @@
+class Retangulo(Forma):
+
+    def calcula_area():
+        pass
+
+    def calcula_perimetro():
+        pass
+
+    @classmethod
+    def lados(cls):
+        count = 0
+        while True:
+            if count < 4:
+                lado = float(input("Digite um lado"))
+                cls.lados.append(lado)
+                count += 1
+            else:
+                break
